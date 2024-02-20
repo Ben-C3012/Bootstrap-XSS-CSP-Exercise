@@ -4,5 +4,5 @@ Content Security Policy + XSS Exercise
 2. Fix the CSP so the website will work. 
 
 3. The app is vulnerable to stored XSS. 
-4. Fix the XSS vulnerabillity using Dom Purify. 
+4. Fix the XSS vulnerabillity using Dom Purify - https://github.com/cure53/DOMPurify
 

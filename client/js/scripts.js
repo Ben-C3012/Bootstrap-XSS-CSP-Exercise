@@ -37,6 +37,7 @@ postButton.addEventListener('click', () => {
         .then(response => response.json())
         .then(data => {
             console.log(data)
+            var sanitizedContent = DOMPurify.sanitize(content);
             commentBox.innerHTML += `<div class="card">
                     <div class="card-body" style="width: 500px;">
                         <h5 class="card-title
@@ -45,7 +46,6 @@ postButton.addEventListener('click', () => {
                     </div>
                 </div>`
         })
-
 
         .catch(error => console.error(error))
         textArea.value = ''

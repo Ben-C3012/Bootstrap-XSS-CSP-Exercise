@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'; style-src 'self'; frame-src 'self';" />
+
     <title>Personal - Start Bootstrap Theme</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
@@ -404,17 +406,9 @@
                 <!-- insert posted comments here -->
                 <h2>Comments</h2>
                 <div class="comment-box">
-                    <!-- comment card -->
-                    <!-- <div class="card">
-                        <div class="card-body " style="width: 500px;">
-                            <h5 class="card-title">Name</h5>
-                            <p class="card-text">Comment</p>
-                        </div>
 
-                    </div> -->
-
+                </div>
         </section>
-
 
         <!-- About Section-->
         <section class="bg-light py-5 ">
@@ -463,7 +457,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.8/purify.min.js" integrity="sha512-5g2Nj3mqLOgClHi20oat1COW7jWvf7SyqnvwWUsMDwhjHeqeTl0C+uzjucLweruQxHbhDwiPLXlm8HBO0011pA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Dom Purify -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.2/purify.min.js"></script>
+
 </body>
 
 </html>
