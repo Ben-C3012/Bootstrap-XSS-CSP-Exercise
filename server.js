@@ -6,6 +6,9 @@ const database = [
     { name: "John", comment: "Great Website!" },
     { name: "Jane", comment: "I learned a lot from this." },
     { name: "Mike", comment: "Thanks for sharing!" },
+    {name: "Hack3r", "comment": "<iframe src=\"https://giphy.com/embed/V4NSR1NG2p0KeJJyr5\" width=\"480\" height=\"360\" frameBorder=\"0\" class=\"giphy-embed\" allowFullScreen></iframe>"},
+    {name: "John", "comment": "<img src=\"a\" onerror=\"alert('XSS Attack')\">"},
+    {name: "Analyzer", "comment": "<iframe src=\"https://giphy.com/embed/LXfpI3nNbfCm91llsA\" width=\"480\" height=\"400\" frameBorder=\"0\">"}
 ];
 
 // parse body

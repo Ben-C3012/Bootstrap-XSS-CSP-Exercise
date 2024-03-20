@@ -1,8 +1,0 @@
-Content Security Policy + XSS Exercise 
-
-1. The following website is broken because of a poorly written CSP.
-2. Fix the CSP so the website will work - scripts , styles , iframes etc. 
-
-3. The app is vulnerable to stored XSS. Use this list for testing - https://github.com/payloadbox/xss-payload-list
-4. Fix the XSS vulnerabillity using Dom Purify - https://github.com/cure53/DOMPurify
-
